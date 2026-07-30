@@ -7,4 +7,6 @@ venv/
 env/
 
 Reports/
+Report_Projects/
+build/
 *.pdf

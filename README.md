@@ -18,3 +18,16 @@ python report_generator.py
 ```
 
 The app lets you add multiple rows, choose an image for each row, enter hours, calculate total hours, and save/load the report data as JSON.
+
+## Windows executable
+The packaged Windows app is available at:
+
+```text
+dist/ReportGeneratorFreelance.exe
+```
+
+To rebuild it, install PyInstaller and run:
+
+```powershell
+pyinstaller --noconfirm --clean ReportGeneratorFreelance.spec
+```
